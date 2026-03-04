@@ -1,4 +1,4 @@
-﻿---
+---
 name: search-plan
 description: Search for Test Plans in HP Nova by various conditions such as title, plan code, status, owner, category, and keyword. Supports pagination and sorting. Use this skill whenever the user wants to find, search, or list Test Plans in Nova.
 version: 0.0.1

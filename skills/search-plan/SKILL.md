@@ -1,9 +1,8 @@
-```skill
----
+﻿---
 name: search-plan
 description: Search for Test Plans in HP Nova by various conditions such as title, plan code, status, owner, category, and keyword. Supports pagination and sorting. Use this skill whenever the user wants to find, search, or list Test Plans in Nova.
 version: 0.0.1
-author: GitHub Copilot
+author: Matt Xiao
 ---
 
 # Search Plan Skill
@@ -66,4 +65,4 @@ Found **N** plan(s) (page X, page size 10):
 - `status` defaults to `All`; omit it if the user does not specify a status filter.
 - Only pass parameters explicitly provided or clearly implied by the user; leave all others at their defaults.
 - The same plan code may appear multiple times due to different versions — this is expected behavior.
-```
+
